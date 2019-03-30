@@ -28,7 +28,9 @@ bash-doc \
 tar \
 curl \
 curl-dev \
-libcurl
+libcurl \
+linux-headers
+
 
 
 apk add --no-cache \
@@ -36,4 +38,4 @@ apk add --no-cache \
         --repository \
          http://dl-3.alpinelinux.org/alpine/edge/testing \
          hdf5 \
-         hdf5-dev 
+         hdf5-dev
