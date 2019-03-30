@@ -29,8 +29,10 @@ tar \
 curl \
 curl-dev \
 libcurl \
-linux-headers
-
+linux-headers \
+llvm5 \
+llvm5-dev \
+llvm5-libs
 
 
 apk add --no-cache \
