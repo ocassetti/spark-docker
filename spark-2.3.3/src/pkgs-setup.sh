@@ -29,3 +29,11 @@ tar \
 curl \
 curl-dev \
 libcurl
+
+
+apk add --no-cache \
+        --allow-untrusted \
+        --repository \
+         http://dl-3.alpinelinux.org/alpine/edge/testing \
+         hdf5 \
+         hdf5-dev 
