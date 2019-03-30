@@ -30,9 +30,6 @@ curl \
 curl-dev \
 libcurl \
 linux-headers \
-openblas \
-openblas-dev \
-openblas-ilp64 \
 lapack \
 lapack-dev
 
