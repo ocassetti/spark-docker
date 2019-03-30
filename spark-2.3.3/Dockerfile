@@ -20,4 +20,4 @@ RUN /bin/sh /root/pkgs-setup.sh && \
     chmod a+x /root/prime-ivy-spark.sh && \
     bash /root/prime-ivy-spark.sh
 
-ENTRYPOINT  ["/bin/bash" ]
+ENTRYPOINT  ["/bin/bash" "/mnt/workspace/" ]
