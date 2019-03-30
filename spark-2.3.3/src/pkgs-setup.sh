@@ -30,10 +30,11 @@ curl \
 curl-dev \
 libcurl \
 linux-headers \
-llvm5 \
-llvm5-dev \
-llvm5-libs
-
+openblas \
+openblas-dev \
+openblas-ilp64 \
+lapack \
+lapack-dev
 
 apk add --no-cache \
         --allow-untrusted \
