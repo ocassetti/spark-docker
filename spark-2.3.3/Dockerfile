@@ -20,4 +20,5 @@ RUN /bin/sh /root/pkgs-setup.sh && \
     chmod a+x /root/prime-ivy-spark.sh && \
     bash /root/prime-ivy-spark.sh
 
-ENTRYPOINT  ["/bin/bash" "/mnt/workspace/" ]
+
+ENTRYPOINT  ["/bin/bash", "/mnt/workspace/run-jupyter.sh"]
