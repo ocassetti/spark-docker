@@ -17,4 +17,13 @@ print(currentDirectory)
 for p, s, d in os.walk(currentDirectory):
     print(f"{d}, {s}, {d}")
 
-time.sleep(300)
+
+sys.path.append("lib.zip")
+import test_spark.unit_a as unit_a
+unit_a.hello()
+
+with open("data.txt", 'r') as fh:
+    print(fh.read())
+
+#time.sleep(300)
+spark.stop()
