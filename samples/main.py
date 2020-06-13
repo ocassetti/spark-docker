@@ -17,12 +17,12 @@ print(currentDirectory)
 for p, s, d in os.walk(currentDirectory):
     print(f"{d}, {s}, {d}")
 
-SparkFiles[]
 
+os.chdir(SparkFiles.getRootDirectory())
 sys.path.append("lib.zip")
 import test_spark.unit_a as unit_a
 unit_a.hello()
-os.chdir(SparkFiles.getRootDirectory())
+
 with open("data.txt", 'r') as fh:
     print(fh.read())
 
