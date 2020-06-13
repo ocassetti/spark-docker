@@ -17,6 +17,7 @@ print(currentDirectory)
 for p, s, d in os.walk(currentDirectory):
     print(f"{d}, {s}, {d}")
 
+os.chdir(SparkFiles.getRootDirectory())
 
 sys.path.append("lib.zip")
 import test_spark.unit_a as unit_a
